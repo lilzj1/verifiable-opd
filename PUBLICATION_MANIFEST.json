@@ -1,8 +1,8 @@
 [
   {
     "path": ".gitignore",
-    "bytes": 194,
-    "sha256": "caa1a66278fd3e1543a68a7f6dee37c80ce0a1357d042b753dd06e3d1e51115d"
+    "bytes": 394,
+    "sha256": "d97c1b603332343423c34d61bb3b652b909adff010544307906c1c5b335f8a56"
   },
   {
     "path": "FORMAL_RESULTS.md",
@@ -21,8 +21,8 @@
   },
   {
     "path": "SOURCE_MANIFEST.json",
-    "bytes": 40343,
-    "sha256": "a827bff9768aeb202d8ebdf0dda5426ebe8037f4e8e9d83adfd0d9ffa3fc02b5"
+    "bytes": 39577,
+    "sha256": "2281e1cab9993c114aedd0301f25683ada9619a000552f9ddc501cdfb1dee691"
   },
   {
     "path": "TEXT_FORMAL_RESULTS.md",
@@ -1058,25 +1058,5 @@
     "path": "verifiable_opd/verl_replay_batch.py",
     "bytes": 7292,
     "sha256": "249c9082dbd45048c4d3a8cd6ae86d44eecc87aedbaa58d349cc10b1158f9c80"
-  },
-  {
-    "path": "后训练与能力整合执行方案.md",
-    "bytes": 19898,
-    "sha256": "0adc5d3dc521961f203eb1bc96ca22c4012232296c4c1dfb1c55467ce8843b58"
-  },
-  {
-    "path": "场景化升级执行方案.md",
-    "bytes": 19583,
-    "sha256": "4ae4a40f14acfabe31440379ef279d39e07429117e1ddbfebc25ecc24161113a"
-  },
-  {
-    "path": "岗位导向场景复核.md",
-    "bytes": 6960,
-    "sha256": "223145cf94e78a7d23da86224b9004af9c5a071e9e23a4325065cb1400b2f774"
-  },
-  {
-    "path": "社区调研与岗位映射_20260924.md",
-    "bytes": 10170,
-    "sha256": "6666f9aacb439997981633f356e90020208b560ea64a212593bb30830ee0eb38"
   }
 ]

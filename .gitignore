@@ -20,3 +20,9 @@ checkpoints/
 api_key
 *.pem
 *.key
+
+# Local planning documents; intentionally not published
+/后训练与能力整合执行方案.md
+/场景化升级执行方案.md
+/岗位导向场景复核.md
+/社区调研与岗位映射_20260924.md

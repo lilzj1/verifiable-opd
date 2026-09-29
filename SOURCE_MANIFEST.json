@@ -830,26 +830,6 @@
     "sha256": "5cb31d3be13707ae25a6f9971ed5b4ab2a445855fb18836b4aaa00212c823c60"
   },
   {
-    "path": "后训练与能力整合执行方案.md",
-    "source": "后训练与能力整合执行方案.md",
-    "sha256": "0adc5d3dc521961f203eb1bc96ca22c4012232296c4c1dfb1c55467ce8843b58"
-  },
-  {
-    "path": "场景化升级执行方案.md",
-    "source": "场景化升级执行方案.md",
-    "sha256": "4ae4a40f14acfabe31440379ef279d39e07429117e1ddbfebc25ecc24161113a"
-  },
-  {
-    "path": "岗位导向场景复核.md",
-    "source": "岗位导向场景复核.md",
-    "sha256": "223145cf94e78a7d23da86224b9004af9c5a071e9e23a4325065cb1400b2f774"
-  },
-  {
-    "path": "社区调研与岗位映射_20260924.md",
-    "source": "社区调研与岗位映射_20260924.md",
-    "sha256": "6666f9aacb439997981633f356e90020208b560ea64a212593bb30830ee0eb38"
-  },
-  {
     "path": "results/s0_dev/summary.json",
     "source": "artifacts/text_formal_eval_v1_s0_dev/summary.json",
     "sha256": "9fe9704b60aff8810f79ad8fe126fe4ec311e2a3508fc2413d16d88d0c8c802f"
