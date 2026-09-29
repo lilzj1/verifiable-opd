@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "groups": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "physical_gpus": [
+    1,
+    3,
+    4,
+    5
+  ],
+  "previous_physical_gpus": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "reason": "User authorizes avoiding unknown GPU2 PID413417; no process killed",
+  "source_sha256": {
+    "posttraining_plan/finish_text_project_1345.py": "3c051ce4e4308be8026bc4290830c1f1c602876078a7a95f8214b30a99fb82de",
+    "posttraining_plan/eval_text_parallel_1345.py": "9e763531373d14fc6f35ef9e021b9f35f8724aaf7b14d8185dc1a800b43f9ff5",
+    "posttraining_plan/eval_text_1345.py": "96129d849e91633a9b01e6dc91aacdc789f8ba68d69c1fec37551a2acc7d2b21"
+  },
+  "preserved_sha256": {
+    "artifacts/text_formal_protocol_v1/protocol.json": "c03ed3d8fa7a40ea29d8753cced480b3489c807200cc2d763d59d8bc11b7ca2c",
+    "artifacts/text_formal_protocol_v1/eval_test.json": "891478670573bdeb8b6f6d12c00b5d1a40fdbe89e5d4200406f8d02aa082be1e",
+    "data/posttraining_text_v3/test_manifest.jsonl": "72163f95671bd24314cb326448a553989625295b7626f825acd6d2e61ffcabb4",
+    "artifacts/text_formal_eval_v1_s0_test/summary.json": "fde91c11ce0eac5046e5339a747fe1be5468cd3e1f3a62226725b114f55874f1",
+    "artifacts/text_formal_eval_v1_s0_test/protocol.json": "3f9fb0e309e037cd5bf0d27c6178013a074a899489b4a42e4695614760f07af0",
+    "artifacts/text_rotation_v2_amendment.json": "107364be091ee3594080ca7904287ff86c01122e9f432d030ff9972ef98e27e8"
+  },
+  "changes": "Only device assignment and device identity checks; source-diff regression passed",
+  "unchanged": "4 TP1 replicas, same shard indices/order, same checkpoints, decoding and scoring",
+  "S0": "completed, not rerun",
+  "prior_stop": {
+    "phase": "STOPPED_NEEDS_DIAGNOSIS",
+    "utc": "2026-09-28T06:45:38.482600+00:00",
+    "error": "ValueError: Authorized GPU remains occupied by PID 413417; will not kill it"
+  }
+}

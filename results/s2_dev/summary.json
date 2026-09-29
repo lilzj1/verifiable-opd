@@ -1,0 +1,39 @@
+{
+  "scope": "dev",
+  "questions": 128,
+  "responses": 128,
+  "benchmarks": {
+    "math": {
+      "questions": 64,
+      "responses": 64,
+      "accuracy": 0.59375,
+      "truncation_rate": 0.109375,
+      "generated_tokens": 887609,
+      "instruction_strict_micro": null
+    },
+    "nemotron_if": {
+      "questions": 64,
+      "responses": 64,
+      "accuracy": 0.546875,
+      "truncation_rate": 0.0625,
+      "generated_tokens": 135810,
+      "instruction_strict_micro": 0.7284768211920529
+    }
+  },
+  "domain_macro": {
+    "math": 0.59375,
+    "if": 0.546875
+  },
+  "overall_domain_macro": 0.5703125,
+  "math_sampling": "question mean over four samples on test, NOT pass@4",
+  "phase": "EVALUATION_COMPLETE",
+  "execution_shards": 4,
+  "replica_wall_seconds": [
+    3270.03107497748,
+    4098.45415318571,
+    5922.653437322937,
+    3335.602511926554
+  ],
+  "reserved_replica_gpu_hours": 4.618539215947967,
+  "wall_seconds": 5942.134099761024
+}

@@ -1,0 +1,16 @@
+tools:
+  - class_name: verifiable_opd.tool.ArithmeticTool
+    config:
+      type: native
+    tool_schema:
+      type: function
+      function:
+        name: submit_value
+        description: Submit the next modular-arithmetic state value.
+        parameters:
+          type: object
+          properties:
+            value:
+              type: integer
+              description: The next state value after applying exactly one operation.
+          required: [value]

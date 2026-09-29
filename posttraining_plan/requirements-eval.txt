@@ -1,0 +1,13 @@
+# Isolated evaluation env only. Do not install into Hydra/verl training env:
+# math-verify uses ANTLR 4.13, while OmegaConf 2.3 requires ANTLR 4.9.
+numpy==2.2.6
+math-verify==0.8.0
+latex2sympy2-extended==1.10.2
+antlr4-python3-runtime==4.13.2
+nltk==3.9.2
+langdetect==1.0.9
+absl-py==2.3.1
+immutabledict==4.2.2
+scikit-learn==1.7.2
+emoji==2.15.0
+syllapy==0.8.0

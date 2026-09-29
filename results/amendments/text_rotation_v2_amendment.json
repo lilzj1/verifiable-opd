@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "scope": "S3_checkpoint_IO_only",
+  "keep": 1,
+  "save_freq": 10,
+  "original_protocol_sha256": "c03ed3d8fa7a40ea29d8753cced480b3489c807200cc2d763d59d8bc11b7ca2c",
+  "source_sha256": {
+    "verifiable_opd/posttraining/rotation_v2.py": "67f54bdaa266c73c97d45fb1e96f00d5c35938979a7060600c8f66421671d7d1",
+    "posttraining_plan/rotation_handoff.py": "c0a414d980817d9b0829d72fa1b248fef1ced77bdefd312f65fee12111a901cd",
+    "posttraining_plan/run_text_formal_v2.py": "1b2da260fa39b41e05e9c6bc217ac9a3b4c4d3d591de521aae6a422888497b9a",
+    "posttraining_plan/finish_text_project_v2.py": "d7c68b0e6b3d17477341f05c3654ae598007e87b34591030fb333550d27d1f89",
+    "posttraining_plan/watch_rotation_handoff.py": "609a7134110fd9a7da64737cae469bb74af21826b9a046e267aa3355c1031c23"
+  },
+  "S2": "unchanged training/export/eval; switch only after successful S2 dev exit",
+  "S1": "unchanged final-only full save; no intermediate checkpoints",
+  "restore": "original full SHA verification retained",
+  "user_authorized": "2026-09-27; do not interrupt S2; reduce repeated scans and retain latest only",
+  "timing_caveat": "S3 checkpoint IO differs from S2; account separately in throughput comparison"
+}

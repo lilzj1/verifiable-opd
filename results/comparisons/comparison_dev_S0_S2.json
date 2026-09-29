@@ -1,0 +1,87 @@
+{
+  "baseline": {
+    "scope": "dev",
+    "questions": 128,
+    "responses": 128,
+    "benchmarks": {
+      "math": {
+        "questions": 64,
+        "responses": 64,
+        "accuracy": 0.46875,
+        "truncation_rate": 0.15625,
+        "generated_tokens": 768133,
+        "instruction_strict_micro": null
+      },
+      "nemotron_if": {
+        "questions": 64,
+        "responses": 64,
+        "accuracy": 0.40625,
+        "truncation_rate": 0.0625,
+        "generated_tokens": 138462,
+        "instruction_strict_micro": 0.6225165562913907
+      }
+    },
+    "domain_macro": {
+      "math": 0.46875,
+      "if": 0.40625
+    },
+    "overall_domain_macro": 0.4375,
+    "math_sampling": "question mean over four samples on test, NOT pass@4"
+  },
+  "candidate": {
+    "scope": "dev",
+    "questions": 128,
+    "responses": 128,
+    "benchmarks": {
+      "math": {
+        "questions": 64,
+        "responses": 64,
+        "accuracy": 0.59375,
+        "truncation_rate": 0.109375,
+        "generated_tokens": 887609,
+        "instruction_strict_micro": null
+      },
+      "nemotron_if": {
+        "questions": 64,
+        "responses": 64,
+        "accuracy": 0.546875,
+        "truncation_rate": 0.0625,
+        "generated_tokens": 135810,
+        "instruction_strict_micro": 0.7284768211920529
+      }
+    },
+    "domain_macro": {
+      "math": 0.59375,
+      "if": 0.546875
+    },
+    "overall_domain_macro": 0.5703125,
+    "math_sampling": "question mean over four samples on test, NOT pass@4"
+  },
+  "paired": {
+    "domains": {
+      "math": {
+        "delta_percentage_points": 12.5,
+        "paired_question_bootstrap_95_percentile_pp": [
+          0.0,
+          25.0
+        ],
+        "questions": 64
+      },
+      "if": {
+        "delta_percentage_points": 14.0625,
+        "paired_question_bootstrap_95_percentile_pp": [
+          3.125,
+          25.0
+        ],
+        "questions": 64
+      }
+    },
+    "draws": 2000,
+    "seed": 17,
+    "limitation": "Conditional on these checkpoints and training seed; not multi-training-seed uncertainty"
+  },
+  "sources": {
+    "baseline": "/home/ubuntu/hello_agents_main/\u80fd\u529b\u8865\u5168/OPD\u9879\u76ee/artifacts/text_formal_eval_v1_s0_dev",
+    "candidate": "/home/ubuntu/hello_agents_main/\u80fd\u529b\u8865\u5168/OPD\u9879\u76ee/artifacts/text_formal_eval_v1_s2_dev"
+  }
+}

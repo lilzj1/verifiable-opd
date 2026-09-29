@@ -1,0 +1,4 @@
+- name: arithmetic_tool_agent
+  _target_: verifiable_opd.agent_loop.ArithmeticToolAgentLoop
+- name: arithmetic_expert_replay_agent
+  _target_: verifiable_opd.expert_agent_loop.ArithmeticExpertReplayAgentLoop

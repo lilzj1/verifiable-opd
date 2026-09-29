@@ -1,0 +1,12 @@
+{
+  "checked_on": "2026-09-21",
+  "status": "candidate_commits_not_installed_or_gpu_validated",
+  "repositories": {
+    "verl-project/verl": "ff93c77eb93e546782b1c0dbdbfe3a559bcef3e0",
+    "Thinking-Space/Rethinking-OPD": "ac26e38d6f1572eb027597b48a9f4e01f6915ef8",
+    "LeapLabTHU/OPDVR": "f58898eb667c8d3d1cbe92a516a129622e22e6ab",
+    "THUDM/slime": "5bae5bb7928d65906e24e99f5b5d3f99a4daaf93",
+    "huggingface/trl": "a98fa6a4428f9aae58dfb26d729d7437f662f27a",
+    "Xuyan923r/OPSD": "44ae3729aacafa15946b28bba863ad4d6b4f3272"
+  }
+}

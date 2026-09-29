@@ -1,0 +1,35 @@
+{
+  "checked_at_utc_date": "2026-09-24",
+  "status": "research_only_not_downloaded_not_gpu_validated",
+  "models": [
+    {
+      "role": "shared_student_initialization",
+      "repo_id": "BytedTsinghua-SIA/Open-MOPD-SmolLM3-3B-MixSFT",
+      "revision": "c9e7bad031667828656ead188d7e8ea162c048a4",
+      "gated": false,
+      "hub_license_tag": "apache-2.0"
+    },
+    {
+      "role": "math_teacher",
+      "repo_id": "BytedTsinghua-SIA/Open-MOPD-SmolLM3-3B-RL-Math",
+      "revision": "5e901bb626b69d711074d2832c41ce1aa4232da8",
+      "gated": false,
+      "hub_license_tag": "apache-2.0"
+    },
+    {
+      "role": "instruction_following_teacher",
+      "repo_id": "BytedTsinghua-SIA/Open-MOPD-SmolLM3-3B-RL-IF",
+      "revision": "8948051a805883e2db988cae4522de3c29d1d112",
+      "gated": false,
+      "hub_license_tag": "apache-2.0"
+    }
+  ],
+  "dataset": {
+    "repo_id": "BytedTsinghua-SIA/Open-MOPD-Data",
+    "revision": "9e897efe3257599d4300e2d5ee865a1cc714af87",
+    "gated": false,
+    "hub_license_tag": null,
+    "license_note": "Dataset card requires checking each original source license; model license is not a dataset license."
+  },
+  "metadata_source": "Hugging Face public models/datasets API; revisions identify candidates, not locally validated artifacts."
+}

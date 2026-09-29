@@ -1,0 +1,55 @@
+{
+  "scope": "test",
+  "questions": 901,
+  "responses": 1081,
+  "benchmarks": {
+    "eval/math/aime24.parquet": {
+      "questions": 30,
+      "responses": 120,
+      "accuracy": 0.25,
+      "truncation_rate": 0.125,
+      "generated_tokens": 1989590,
+      "instruction_strict_micro": null
+    },
+    "eval/math/aime25.parquet": {
+      "questions": 30,
+      "responses": 120,
+      "accuracy": 0.23333333333333334,
+      "truncation_rate": 0.15,
+      "generated_tokens": 2074564,
+      "instruction_strict_micro": null
+    },
+    "eval/if/ifeval_aligned.parquet": {
+      "questions": 541,
+      "responses": 541,
+      "accuracy": 0.7282809611829945,
+      "truncation_rate": 0.009242144177449169,
+      "generated_tokens": 285802,
+      "instruction_strict_micro": 0.8117505995203836
+    },
+    "eval/if/ifbench_test_aligned.parquet": {
+      "questions": 300,
+      "responses": 300,
+      "accuracy": 0.25666666666666665,
+      "truncation_rate": 0.016666666666666666,
+      "generated_tokens": 225559,
+      "instruction_strict_micro": 0.2703488372093023
+    }
+  },
+  "domain_macro": {
+    "math": 0.24166666666666667,
+    "if": 0.4924738139248306
+  },
+  "overall_domain_macro": 0.36707024029574864,
+  "math_sampling": "question mean over four samples on test, NOT pass@4",
+  "phase": "EVALUATION_COMPLETE",
+  "execution_shards": 4,
+  "replica_wall_seconds": [
+    14927.156340407208,
+    15232.945538325235,
+    14416.156984734349,
+    17695.689049557783
+  ],
+  "reserved_replica_gpu_hours": 17.297763309173494,
+  "wall_seconds": 17746.968093201518
+}
